@@ -15,7 +15,7 @@ This is a full-stack application built with Django (backend) and React (frontend
 ### Backend (Django)
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/Food_Recommender_App.git
+   git clone [https://github.com/Rallfy/Food-Recommender.git]
    cd Food_Recommender_App/food_plan_backend
 2.  **Create a virtual environment and activate it:**
    ```bash
