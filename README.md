@@ -21,7 +21,6 @@ This is a full-stack application built with Django (backend) and React (frontend
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
    python manage.py migrate
    python manage.py createsuperuser
    python manage.py runserve
