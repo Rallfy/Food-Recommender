@@ -1,5 +1,5 @@
 ## Backend
-``` cd food_plan_backend ```
+``` cd food_plan_backend ``` \\
 ``` pip install -r requirements.txt ```
 ``` python manage.py makemigrations ```
 ``` python manage.py migrate ```
