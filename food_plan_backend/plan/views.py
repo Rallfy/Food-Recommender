@@ -20,6 +20,10 @@ def save_user_data(request):
             age=data['age'],
             weight=data['weight'],
             height=data['height'],
+            gender=data['gender'],
+            dietary_preference=data['dietaryPreference'],
+            cooking_time=data['cookingTime'],
+            allergies=data.get('allergies', []),
             bmi=data['bmi'],
             bmi_category=data['bmiCategory'],
         )
@@ -38,6 +42,10 @@ def get_user_data(request, token):
             'age': user_data.age,
             'weight': user_data.weight,
             'height': user_data.height,
+            'gender': user_data.gender,
+            'dietary_preference': user_data.dietary_preference,
+            'cooking_time': user_data.cooking_time,
+            'allergies': user_data.allergies,
             'bmi': user_data.bmi,
             'bmi_category': user_data.bmi_category,
         }
