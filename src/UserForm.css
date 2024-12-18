@@ -1,0 +1,80 @@
+/* General Form Styles */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Input Fields */
+form select,
+form input[type="number"],
+form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Submit Button */
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Labels and Headings */
+form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+form h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Allergies Section */
+.allergies-container {
+  margin-bottom: 20px;
+}
+
+.allergies-container label {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.allergies-container div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* BMI Section */
+.bmi-section {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #555;
+}
